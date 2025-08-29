@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             RoleSeeder::class,
+            SuperUserSeeder::class,
         ]);
 
         // Create demo users for each role
